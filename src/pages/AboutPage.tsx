@@ -16,5 +16,3 @@ export const AboutPage = () => {
     </Row>
   );
 };
-
-export default AboutPage;

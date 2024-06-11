@@ -5,10 +5,7 @@ import { HomePage } from './pages/HomePage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { ProductsPage } from './pages/ProductsPage';
 import { SingleProductPage } from './pages/SingleProductPage';
-<<<<<<< HEAD
-=======
-import AboutPage from './pages/AboutPage';
->>>>>>> master
+import { AboutPage } from './pages/AboutPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,10 +13,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path="products/*" element={<ProductsPage />} />
       <Route path="products/:id" element={<SingleProductPage />} />
-<<<<<<< HEAD
-=======
       <Route path="about" element={<AboutPage />} />
->>>>>>> master
       <Route path="*" element={<NotFoundPage />} />
     </Route>,
   ),
