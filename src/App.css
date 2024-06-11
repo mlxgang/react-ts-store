@@ -1,0 +1,8 @@
+.a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.nav-item:hover {
+  text-decoration: underline !important;
+}
